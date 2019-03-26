@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700|Overpass:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+  <body>
+
+  <!--  80% width page wrapper -->
+  <div class="site-wrapper">
+
+    <!--  Nav bar -->
+    <nav>
+      <div class="wrap"> <!-- Page Wrapper -->
+        <a href="index.html"><div class="logo"><span>consious</span> CMS solutions</div></a>
+        <ul>
+          <a href="#moreLast"><li><div class="bubble"></div> Need help?</li></a>
+          <li id="openSearch" onClick="openSearch()"> <div class="search"></div> search tutorial</li>
+        </ul>
+        <!--  Hidden Search bar -->
+        <div class="searchBar">
+          <div>
+            <input id="input" type="text" name="search" value="" placeholder="Search tutorial">
+                <button  id="closeSearch" onClick="closeSearch()" type="button" name="button">
+                  <div>
+                    <div id="lineOne"></div>
+                    <div id="lineTwo"></div>
+                  </div>
+              </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Results Example -->
+    <div id="results">
+      <!-- Card panel -->
+      <div class="container">
+        <div class="wrap"> <!-- Page Wrapper -->
+          <h2 class="h1 category">Results</h2>
+          <div class="wrapper">
+            <div class="card">
+              <a class="card-thumbnail orange" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail pink" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail redPurple" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail purple" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail orange" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail pink" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail redPurple" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <a class="card-thumbnail purple" href="video.html">
+                <img src="img/play.png">
+              </a>
+              <div class="card-content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- used to display results -->
+    <div id="page-content">
+
+    <!-- Banner -->
+    <div class="banner" id="banner">
+      <div class="imgBanBtn imgBanBtn-prev" id="imgBanBtn-prev"></div>
+        <a  href="video.html">
+          <div class="imgBan" id="imgBan1">
+            <div class="banner-content">
+              <img src="img/banner2.png" alt="Jeff" class="imgMan">
+              <h2> How do I add my image to my staff profile? </h2>
+            </div>
+          </div>
+        </a>
+        <a  href="video.html">
+          <div class="imgBan" id="imgBan2">
+            <div class="banner-content">
+              <img src="img/change-image.png" alt="Jeff" class="imgMan">
+              <h2> How do I add or replace an image on a web page? </h2>
+            </div>
+          </div>
+        </a>
+        <a  href="video.html">
+          <div class="imgBan" id="imgBan3">
+            <div class="banner-content">
+              <img src="img/change-blog.png" alt="Jeff" class="imgMan">
+              <h2> I've added a blog but it's not in the right category! Can I fix this? </h2>
+            </div>
+          </div>
+        </a>
+      <div class="imgBanBtn imgBanBtn-next" id="imgBanBtn-next"></div>
+    </div>
+
+    <!-- Card panel -->
+    <div class="container" id="white">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Staff</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-staff">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-staff')" class="circle ajax-staff-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-staff-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card panel -->
+    <div class="container cloud">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">News Articles</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-news">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-news')" class="circle ajax-news-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-news-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card panel -->
+    <div class="container">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Content Editing</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-content">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-content')" class="circle ajax-content-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-content-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+    <div class="container cloud">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Changing Images</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-images">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-images')" class="circle ajax-images-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-images-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Events</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-events">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-events')" class="circle ajax-events-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-events-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+    <div class="container cloud">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Blogs</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-blogs">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-blogs')" class="circle ajax-blogs-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-blogs-triggerTxt">show more</p>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="wrap"> <!-- Page Wrapper -->
+        <h2 class="h1 category">Uploading Files</h2>
+        <div class="wrapper">
+          <div class="card">
+            <a class="card-thumbnail orange" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail pink" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail redPurple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a class="card-thumbnail purple" href="video.html">
+              <img src="img/play.png">
+            </a>
+            <div class="card-content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+        <div id="ajax-uploading">
+        </div>
+          <div class="line">
+            <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-uploading')" class="circle ajax-uploading-trigger">
+              <img src="img/arrow.png" alt="" class="arrow">
+            </button>
+            <p class="more ajax-uploading-triggerTxt" id="moreLast">show more</p>
+          </div>
+        </div>
+      </div>
+      <!--  End of card panel -->
+    </div>
+
+    <!--  Help banner -->
+    <div class="preFooter">
+      <h2 class="h2">Need some help?</h2>
+      <div class="leftWrapper">
+        <img src="img/help.png" alt="">
+        <p>Speak to Grace now</p>
+        <p>+447955733589</p>
+      </div>
+      <!--  Form -->
+      <div class="rightWrapper">
+        <form class="" action="index.html" method="post">
+          <input type="text" name="name" value="" placeholder="Name*">
+          <input type="text" name="email" value="" placeholder="Email*">
+          <input type="text" name="phone" value="" placeholder="Phone*">
+          <textarea name="name" rows="8" cols="80" placeholder="Message*"></textarea>
+          <button type="submit" name="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!--  Footer -->
+    <footer>
+      <div>
+        <a href=""><img src="img/facebook.png" alt=""></a>
+        <a href=""><img src="img/linkedin.png" alt=""></a>
+        <a href=""><img src="img/twitter.png" alt=""></a>
+      </div>
+      <div>
+        <p><a href="#">Conscious Solutions</a>  |  <a href="#">Limited Buildings, 42-46 Baldwin Street, Bristol, BS1 1PN</a>  |  <a href="#">0117 325 0200</a>  |  <a href="#">sales@conscious.co.uk</a>  |  <a href="#">Terms & Conditions</a>  |  <a href="#">Cookies</a>  |  <a href="#">Privacy Policy</a>  |  </p>
+      </div>
+    </footer>
+
+  </div> <!--  end of page -->
+
+  <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

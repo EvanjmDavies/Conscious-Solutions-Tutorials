@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Overpass:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+  <div class="site-wrapper">
+
+  <!--  Nav bar -->
+  <nav>
+        <div class="wrap"> <!-- Page Wrapper -->
+          <a href="index.html"><div class="logo"><span>consious</span> CMS solutions</div></a>
+          <ul>
+            <a href="#moreLast"><li><div class="bubble"></div> Need help?</li></a>
+            <li id="openSearch" onClick="openSearch()"> <div class="search"></div> search tutorial</li>
+          </ul>
+          <!--  Hidden Search bar -->
+          <div class="searchBar">
+            <div>
+              <input id="input" type="text" name="search" value="">
+                  <button  id="closeSearch" onClick="closeSearch()" type="button" name="button">
+                    <div>
+                      <div id="lineOne"></div>
+                      <div id="lineTwo"></div>
+                    </div>
+                </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  <div class="smallWrap"> <!-- Page Wrapper -->
+
+  <div class="home">
+      <img src="img/back.png" alt="home" class="back">
+      <a href="index.html" >home</a>
+    </div>
+  </div> <!-- Home Button -->
+
+  <div class="playerWrapper">
+    <div class="player-background"></div>
+      <div class="smallWrap"> <!-- Page Wrapper -->
+        <figure id="videoContainer" data-fullscreen="false">
+          <video id="video" controls preload="metadata" poster="img/poster.jpg">
+            <source src="video/Dusk.mp4" type="video/mp4">
+            <!-- Flash fallback -->
+            <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" width="1024" height="576">
+              <param name="movie" value="flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" />
+              <param name="allowfullscreen" value="true" />
+              <param name="wmode" value="transparent" />
+              <param name="flashvars" value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" />
+              <img alt="Tears of Steel poster image" src="img/poster.jpg" width="1024" height="428" title="No video playback possible, please download the video from the link below" />
+            </object>
+            <!-- Offer download -->
+            <a href="video/tears-of-steel-battle-clip-medium.mp4">Download MP4</a>
+          </video>
+          <ul id="video-controls" class="controls">
+            <li class="progress">
+              <progress id="progress" value="0" min="0">
+                <span id="progress-bar"></span>
+              </progress>
+            </li>
+            <li><div id="playpause" onClick="playSwitch()" type="button"></div></li>
+            <li><div id="stop" onClick="stopReset()" type="button"></div></li>
+            <li><div id="fs" type="button"></div></li>
+            <li><div id="volinc" type="button"></div></li>
+            <li><div id="voldec" type="button">-</div></li>
+            <li><div id="mute" type="button"></div></li>
+          </ul>
+        </figure>
+      </div>
+    </div> <!-- Media Player -->
+
+  <div class="smallWrap"> <!-- Page Wrapper -->
+    <div class="playerInfo">
+      <h2> How do I add my image to my staff profile? </h2>
+      <div class="transcript-toggle" onClick="openTranscript()">
+        <p>Video Transcript</p>
+        <img src="img/back.png" alt="home" class="back">
+      </div>
+      <p class="transcript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe suscipit repellendus officiis, quam vitae. Quos rerum impedit cum facere aliquam magnam, fuga laboriosam natus, ipsa, eligendi voluptatem praesentium? Nemo voluptatibus sunt neque, maiores sint, facilis natus placeat, assumenda dolores voluptatum quibusdam quos veritatis accusantium, numquam veniam adipisci laudantium explicabo iure? Sapiente ullam eos dolor esse modi fuga dolorem inventore, obcaecati excepturi praesentium! Deserunt accusantium, laboriosam est quo dolore excepturi autem! Explicabo, debitis nam voluptatibus tempora, cupiditate quia quaerat dignissimos voluptatem neque, soluta eaque officiis. Ipsam sit tempora optio in nam earum ipsum reiciendis, dolorum beatae error enim facere nesciunt laborum fugiat, laboriosam molestiae officiis culpa temporibus, voluptatum esse rem at incidunt repellat reprehenderit. Alias nam esse quasi qui asperiores quibusdam necessitatibus, quidem, et incidunt aperiam dolore assumenda architecto maxime. Voluptatibus at id molestias sapiente voluptas praesentium. Recusandae molestias nemo sed unde saepe aperiam quasi, impedit tempora odio esse est eveniet asperiores veritatis consequatur, quo velit dolorum similique optio dicta qui molestiae nesciunt reprehenderit eaque distinctio consequuntur. Labore neque, omnis nihil explicabo. Laboriosam odio eius cum deleniti beatae excepturi possimus magnam quas officiis debitis, aliquam voluptate modi eligendi, atque nisi inventore facilis accusantium tempora quia veritatis fugiat in, aliquid. Dolore, excepturi laboriosam, soluta eius, sapiente quam autem fugiat sunt nulla minima atque placeat veniam rem libero corrupti qui harum reiciendis, molestiae enim delectus! Distinctio fugit maxime, libero, ad velit unde labore similique rerum quibusdam porro quo. Praesentium, autem eos assumenda qui? Velit, est, ex. Reiciendis fugiat commodi voluptates ratione aliquam recusandae, libero laboriosam cumque illum magni, ad voluptate vitae, dolorem earum similique adipisci architecto eveniet numquam, quia tempore ipsam inventore sit nihil. Nam libero consectetur provident qui quos reiciendis rerum enim fugit pariatur iste sapiente repellendus, saepe, explicabo veniam incidunt inventore distinctio laudantium reprehenderit neque nostrum omnis quia atque esse. Sapiente!</p>
+    </div>
+  </div>
+
+  <!-- Card panel -->
+  <div class="container cloud">
+  <div class="wrap"> <!-- Page Wrapper -->
+    <h2 class="h1">Recommended</h2>
+    <div class="wrapper">
+      <div class="card">
+        <a class="card-thumbnail orange" href="video.html">
+          <img src="img/play.png">
+        </a>
+        <div class="card-content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a class="card-thumbnail pink" href="video.html">
+          <img src="img/play.png">
+        </a>
+        <div class="card-content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a class="card-thumbnail redPurple" href="video.html">
+          <img src="img/play.png">
+        </a>
+        <div class="card-content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a class="card-thumbnail purple" href="video.html">
+          <img src="img/play.png">
+        </a>
+        <div class="card-content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+    <div id="ajax-uploading">
+    </div>
+      <div class="line">
+        <button id="load" onclick="sendAJAX('sidebar.html', 'ajax-uploading')" class="circle ajax-uploading-trigger">
+          <img src="img/arrow.png" alt="" class="arrow">
+        </button>
+        <p class="more ajax-uploading-triggerTxt"  id="moreLast">show more</p>
+      </div>
+    </div>
+  </div>
+  <!--  End of card panel -->
+
+  <!--  Help banner -->
+    <div class="preFooter">
+        <h2 class="h2">Need some help?</h2>
+        <div class="leftWrapper">
+          <img src="img/help.png" alt="">
+          <p>Speak to Grace now</p>
+          <p>+447955733589</p>
+        </div>
+        <!--  Form -->
+        <div class="rightWrapper">
+          <form class="" action="index.html" method="post">
+            <input type="text" name="name" value="" placeholder="Name*">
+            <input type="text" name="email" value="" placeholder="Email*">
+            <input type="text" name="phone" value="" placeholder="Phone*">
+            <textarea name="name" rows="8" cols="80" placeholder="Message*"></textarea>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+  <!--  Footer -->
+    <footer>
+      <div>
+        <a href=""><img src="img/facebook.png" alt=""></a>
+        <a href=""><img src="img/linkedin.png" alt=""></a>
+        <a href=""><img src="img/twitter.png" alt=""></a>
+      </div>
+      <div>
+        <p><a href="#">Conscious Solutions</a>  |  <a href="#">Limited Buildings, 42-46 Baldwin Street, Bristol, BS1 1PN</a>  |  <a href="#">0117 325 0200</a>  |  <a href="#">sales@conscious.co.uk</a>  |  <a href="#">Terms & Conditions</a>  |  <a href="#">Cookies</a>  |  <a href="#">Privacy Policy</a>  |  </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
