@@ -114,7 +114,8 @@ nav {
       padding: 19px 30px 19px 60px;
       -webkit-transition: opacity 0.1s ease-out 0.7s;
       -o-transition: opacity 0.1s ease-out 0.7s;
-      transition: opacity 0.1s ease-out 0.7s; }
+      transition: opacity 0.1s ease-out 0.7s;
+      color: #4b5457; }
       nav ul li.disappear {
         opacity: 0; }
       nav ul li a {
@@ -124,7 +125,7 @@ nav {
         -o-transition: none;
         transition: none; }
       nav ul li .search {
-        background: url("/img/search.png") center no-repeat;
+        background: url("../img/search.png") center no-repeat;
         background-size: contain;
         position: absolute;
         top: 0;
@@ -135,7 +136,7 @@ nav {
         margin-right: 10px;
         z-index: 1; }
       nav ul li .bubble {
-        background: url("/img/bubble.png") center no-repeat;
+        background: url("../img/bubble.png") center no-repeat;
         background-size: contain;
         position: absolute;
         top: 0;
